@@ -70,10 +70,9 @@ Esta é uma API simples de gerenciamento de usuários construída com Node.js, E
 - `GET /user/:id` - Retorna um usuário pelo ID (necessário autenticação e ser admin).
 - `PUT /user` - Atualiza um usuário existente (necessário autenticação e ser admin).
 - `DELETE /user/:id` - Remove um usuário pelo ID (necessário autenticação e ser admin).
-- `POST /recoverpassword` - Envia um e-mail para recuperação de senha.
+- `POST /recoverpassword` - Envia o token para recuperação de senha.
 - `PUT /changepassword` - Altera a senha de um usuário utilizando um token de recuperação.
 - `POST /login` - Autentica o usuário e retorna um token JWT.
-- `POST /validate` - Valida o token JWT e verifica as permissões de administrador.
 
 ## Middleware
 
