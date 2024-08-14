@@ -9,7 +9,7 @@ Esta é uma API simples de gerenciamento de usuários construída com Node.js, E
 - **Busca de Usuário por ID**: Exibe os detalhes de um usuário específico (necessário autenticação).
 - **Atualização de Usuário**: Permite a atualização das informações de um usuário (necessário autenticação).
 - **Remoção de Usuário**: Remove um usuário do banco de dados (necessário autenticação).
-- **Recuperação de Senha**: Envia um token para recuperação de senha ao e-mail do usuário.
+- **Recuperação de Senha**: Envia um token para recuperação de senha ao usuário.
 - **Alteração de Senha**: Permite que o usuário altere sua senha utilizando um token.
 - **Login**: Autentica o usuário e retorna um token JWT.
 - **Validação de Token**: Verifica se o token JWT é válido e se o usuário tem permissão de administrador.
@@ -73,6 +73,7 @@ Esta é uma API simples de gerenciamento de usuários construída com Node.js, E
 - `POST /recoverpassword` - Envia o token para recuperação de senha.
 - `PUT /changepassword` - Altera a senha de um usuário utilizando um token de recuperação.
 - `POST /login` - Autentica o usuário e retorna um token JWT.
+- `POST /validate` - Valida o token JWT e verifica as permissões de administrador.
 
 ## Middleware
 
