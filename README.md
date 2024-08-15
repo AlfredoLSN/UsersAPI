@@ -1,6 +1,6 @@
 # API de Gerenciamento de Usuários
 
-Esta é uma API simples de gerenciamento de usuários construída com Node.js, Express, e MySQL. Ela permite criar, atualizar, deletar, e visualizar usuários, além de funcionalidades de autenticação e recuperação de senha.
+Esta é uma API de gerenciamento de usuários construída com Node.js, Express, e MySQL. Ela permite criar, atualizar, deletar, e visualizar usuários, além de funcionalidades de autenticação e recuperação de senha.
 
 ## Funcionalidades
 
