@@ -27,7 +27,7 @@ Esta é uma API de gerenciamento de usuários construída com Node.js, Express, 
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/AlfredoLSN/UsersAPI
     cd seu-repositorio
     ```
 
